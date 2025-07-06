@@ -1,0 +1,54 @@
+{
+  "name": "@avicennatechnology/next-activity-indicator",
+  "version": "0.1.0",
+  "description": "Next.js için modern ve özelleştirilebilir aktivite göstergesi (loading spinner) bileşeni",
+  "main": "dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nextjs",
+    "next.js",
+    "react",
+    "activity-indicator",
+    "loading",
+    "spinner",
+    "typescript",
+    "component"
+  ],
+  "author": "Avicenna Technology",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avicennatechnology/next-activity-indicator.git"
+  },
+  "homepage": "https://github.com/avicennatechnology/next-activity-indicator#readme",
+  "bugs": {
+    "url": "https://github.com/avicennatechnology/next-activity-indicator/issues"
+  },
+  "peerDependencies": {
+    "next": ">=12.0.0",
+    "react": ">=17.0.0"
+  },
+  "devDependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "@types/react": "^18.0.0"
+  }
+}
